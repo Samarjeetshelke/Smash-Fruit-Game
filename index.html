@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="logic.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+            <div id="mute">Music:&nbsp;<i class="fa-solid fa-volume-high" id="umute" style="color: #0084ff;"></i></div>
+
+        <div id="container">
+            <div id="so">
+                <div id="hearts">
+            </div>
+            <div id="score">Score:&nbsp;<span id="res"></span></div>
+            <div id="ground">
+                <img src="./img/lemon.png" dragable="false" class="lifex" id="fruitsc">
+            </div>
+            <div id="msg">
+            Catch Fruits
+            </div>
+           
+            
+            </div>
+             <button id="start">Start Game</button>
+        </div>
+
+        <div id="gameover">
+        <p>Game Over!</p>
+        <p>Your Score is&nbsp; <span id="fscr"></span></p>
+        </div>
+        <audio id="slice">
+            <source src="./audi/smash.mp3">
+            <source src="./audi/smash.ogg">
+        </audio>
+        <audio id="startg">
+            <source src="./audi/backm.mp3" type="">
+        </audio>
+        <audio  id="gameo">
+            <source src="./audi/gameov.mp3">
+        </audio>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" integrity="sha512-57oZ/vW8ANMjR/KQ6Be9v/+/h6bq9/l3f0Oc7vn6qMqyhvPd1cvKBRWWpzu0QoneImqr2SkmO4MSqU+RpHom3Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>

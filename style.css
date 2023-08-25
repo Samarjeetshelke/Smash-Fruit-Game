@@ -1,0 +1,128 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+
+#container{
+    height:600px;
+    width:700px;
+    background-color:rgb(153,206,236);
+    border:1.5px solid rgb(68,171,238);
+    border-radius:15px;
+    box-shadow: 0px 5px  rgb(49, 93, 118);
+    margin:10% auto;
+}
+
+#ground{
+    background-color:white;
+    height:330px;
+    width: 530px;
+    border: 1px solid rgb(216, 211, 211);
+    border-radius: 6px;
+    box-shadow: 0px 3px rgb(53, 56, 80);
+    position:relative;
+    top:60px ;
+    text-align:center;
+    left:85px;
+    overflow: hidden;
+}
+
+#start{
+    border: none;
+    background-color:rgb(190, 231, 255);
+    height:30px;
+    width:100px;
+    position: relative;
+    top:115px;
+    left: 300px;
+    border-radius: 2px;
+    box-shadow: 0px 3px rgb(55, 105, 134);
+    /* transition: box-shadow 0.8s; */
+    cursor: pointer;
+}
+
+#start:active{
+    box-shadow:none;
+}
+#score{
+    /* display: none; */
+    background-color: rgb(236, 236, 110);
+    height:30px;
+    width: 100px;
+    text-align: center;
+    line-height: 1.6;
+    box-shadow: 0px 3px rgb(147, 147, 54);
+    position: relative;
+    top:30px;
+    left: 580px;
+    margin: 0%;
+}
+
+#mute{
+    position: relative;
+    margin: 0 auto;
+    z-index: 8px;
+    height:25px;
+    line-height: 1.4;
+    border:.7px solid rgb(155, 140, 121);
+    border-radius: 3px;
+    font-size: medium;
+    padding: 3px;
+    width:70px;
+
+    background-color: rgb(250, 235, 215);
+}
+.lifex{
+    
+}
+#hearts{
+     margin: 0%;
+    background-color: rgb(236, 236, 110);
+    height:30px;
+    width: 100px;
+    text-align: center;
+    line-height: 1.8;
+    box-shadow: 0px 3px rgb(147, 147, 54);
+    position: relative;
+    top:58px;
+    left:25px;
+    /* display: none; */
+    /* visibility: hidden; */
+      
+}
+#msg{
+    text-align: center;
+    line-height: 2;
+    background-color: rgb(175, 80, 219);
+    height:35px;
+    width: 400px;
+    position: relative;
+    top:80px;
+    left:150px;
+    border-radius: 3px;
+    border: 1px solid rgb(121, 49, 154);
+    box-shadow: 0px 3px rgb(85, 19, 115);
+}
+
+#fruitsc{
+    display: none;
+    position:absolute;
+}
+
+#gameover{
+    display: none;
+    height: 130px;
+    margin: 10% auto;
+    position: relative;
+    color: white;
+    top:-500px;
+    width: 350px;
+    text-align: center;
+    font-size:30px;
+    background-color: rgb(255, 174, 0);
+    background: linear-gradient(rgb(255, 38, 0),rgb(239, 239, 79));
+}
+
+#gameover:first-child(){
+    margin-top: 15px;
+}
